@@ -1,3 +1,3 @@
 com\petsupplies\rest\ProductRestService.class
-com\petsupplies\service\ProductService.class
 com\petsupplies\domain\Product.class
+com\petsupplies\Connection\DatabaseConnection.class
