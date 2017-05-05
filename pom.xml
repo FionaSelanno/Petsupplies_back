@@ -23,6 +23,15 @@
             <version>7.0</version>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/com.airhacks/jaxrs-cors -->
+        <dependency>
+            <groupId>com.airhacks</groupId>
+            <artifactId>jaxrs-cors</artifactId>
+            <version>javaee6-0.0.1</version>
+        </dependency>
+
+
+
     </dependencies>
 
 
