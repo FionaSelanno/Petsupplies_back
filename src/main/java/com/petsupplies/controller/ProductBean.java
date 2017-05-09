@@ -13,7 +13,7 @@ import java.util.List;
 @Stateless(name = "productbean")
 public class ProductBean {
 
-    @PersistenceContext(unitName = "webshopPU") //makes
+    @PersistenceContext(unitName = "webshopPU")
     EntityManager entityManager;
 
     public List<Product> readAllProducts() {
