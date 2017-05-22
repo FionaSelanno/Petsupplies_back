@@ -3,7 +3,6 @@ package com.petsupplies.domain;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
-import java.math.BigDecimal;
 
 @Entity
 public class Product {
@@ -22,7 +21,7 @@ public class Product {
 
     private String name;
     private String description;
-    private BigDecimal price;
+    private double price;
 
     public String getName() {
         return name;
@@ -40,11 +39,11 @@ public class Product {
         this.description = description;
     }
 
-    public BigDecimal getPrice() {
+    public double getPrice() {
         return price;
     }
 
-    public void setPrice(BigDecimal price) {
+    public void setPrice(double price) {
         this.price = price;
     }
 
